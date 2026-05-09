@@ -1,4 +1,7 @@
 import { CardProjects } from "../../components/cardProjects";
+import projetoPrestacaoFront from "../../assets/projetoPrestacao.png";
+import projetoPrestacaoBack from "../../assets/projetoPrestacaoBack.png";
+
 
 export const Projects = () => {
   return (
@@ -6,14 +9,14 @@ export const Projects = () => {
         <CardProjects
           title="Dashboard de Gestão Financeira - Frontend"
           description="Interface administrativa moderna focada na visualização inteligente de dados financeiros. O sistema transforma fluxos complexos de prestação de contas em dashboards interativos, permitindo o acompanhamento em tempo real do planejamento versus executado com animações fluidas e alta performance."
-          imageUrl="./src/assets/projetoPrestacao.png"
+          imageUrl={projetoPrestacaoFront}
           tags={["React", "Next.js", "Material UI", "Zustand", "Recharts"]}
           link="https://gestaoprestacaoapi-production.up.railway.app/docs/#tag/orcado"
         />
         <CardProjects
           title="API de Gestão e Prestação de Contas"
           description="API REST de alta performance desenvolvida para centralizar a prestação de contas e dar suporte a tomadas de decisão baseadas em dados (SMS). Implementada com arquitetura escalável, validação rigorosa de dados e documentação automatizada para garantir a integridade dos fluxos financeiros."
-          imageUrl="./src/assets/projetoPrestacaoBack.png"
+          imageUrl={projetoPrestacaoBack}
           tags={[
             "Node.js",
             "Fastify",
@@ -27,14 +30,14 @@ export const Projects = () => {
         <CardProjects
           title="Dashboard de Gestão Financeira - Frontend"
           description="Interface administrativa moderna focada na visualização inteligente de dados financeiros. O sistema transforma fluxos complexos de prestação de contas em dashboards interativos, permitindo o acompanhamento em tempo real do planejamento versus executado com animações fluidas e alta performance."
-          imageUrl="./src/assets/projetoPrestacao.png"
+          imageUrl={projetoPrestacaoFront}
           tags={["React", "Next.js", "Material UI", "Zustand", "Recharts"]}
           link="https://gestaoprestacaoapi-production.up.railway.app/docs/#tag/orcado"
         />
         <CardProjects
           title="API de Gestão e Prestação de Contas"
           description="API REST de alta performance desenvolvida para centralizar a prestação de contas e dar suporte a tomadas de decisão baseadas em dados (SMS). Implementada com arquitetura escalável, validação rigorosa de dados e documentação automatizada para garantir a integridade dos fluxos financeiros."
-          imageUrl="./src/assets/projetoPrestacaoBack.png"
+          imageUrl={projetoPrestacaoBack}
           tags={[
             "Node.js",
             "Fastify",
@@ -48,14 +51,14 @@ export const Projects = () => {
         <CardProjects
           title="Dashboard de Gestão Financeira - Frontend"
           description="Interface administrativa moderna focada na visualização inteligente de dados financeiros. O sistema transforma fluxos complexos de prestação de contas em dashboards interativos, permitindo o acompanhamento em tempo real do planejamento versus executado com animações fluidas e alta performance."
-          imageUrl="./src/assets/projetoPrestacao.png"
+          imageUrl={projetoPrestacaoFront}
           tags={["React", "Next.js", "Material UI", "Zustand", "Recharts"]}
           link="https://gestaoprestacaoapi-production.up.railway.app/docs/#tag/orcado"
         />
         <CardProjects
           title="API de Gestão e Prestação de Contas"
           description="API REST de alta performance desenvolvida para centralizar a prestação de contas e dar suporte a tomadas de decisão baseadas em dados (SMS). Implementada com arquitetura escalável, validação rigorosa de dados e documentação automatizada para garantir a integridade dos fluxos financeiros."
-          imageUrl="./src/assets/projetoPrestacaoBack.png"
+          imageUrl={projetoPrestacaoBack}
           tags={[
             "Node.js",
             "Fastify",
