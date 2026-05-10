@@ -1,0 +1,11 @@
+export { default as css } from "./css_icon.svg";
+export { default as html } from "./html_icon.svg";
+export { default as js } from "./js_icon.svg";
+export { default as react } from "./react_icon.svg";
+export { default as node } from "./node_icon.svg";
+export { default as typeScript } from "./type_icon.svg";
+export { default as vscode } from "./vscode_icon.svg";
+export { default as mui } from "./mui_icon.svg";
+export { default as python } from "./python_icon.svg";
+export { default as postgres } from "./postgresql_icon.svg";
+export { default as git } from "./git_icon.svg";
