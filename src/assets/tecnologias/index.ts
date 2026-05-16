@@ -9,3 +9,4 @@ export { default as mui } from "./mui_icon.svg";
 export { default as python } from "./python_icon.svg";
 export { default as postgres } from "./postgresql_icon.svg";
 export { default as git } from "./git_icon.svg";
+export { default as pydantic } from "./pydantic_icon.svg";

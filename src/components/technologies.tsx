@@ -15,6 +15,7 @@ export const Technologies: React.FC = () => {
     Techs.react,
     Techs.typeScript,
     Techs.vscode,
+    Techs.pydantic,
   ];
 
   return (

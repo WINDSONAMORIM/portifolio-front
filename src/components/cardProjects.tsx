@@ -1,9 +1,12 @@
+
+import githubLogo from "../assets/github-logo.png";
 interface CardProjectsProps {
   title: string;
   description: string;
   imageUrl: string;
   tags: string[];
   link?: string;
+  githubLink?: string;
 }
 
 export const CardProjects = (props: CardProjectsProps) => {
@@ -30,20 +33,42 @@ export const CardProjects = (props: CardProjectsProps) => {
           </span>
         ))}
       </div>
-      <div className="px-6 py-4">
-        {props.link && (
-            <a
-              href={props.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out"
-            >
-              Ver Projeto
-            </a>
-          )}
+      <div className="py-4 flex items-center justify-between">
+        <div className="px-6 py-4">
+          <a
+            href={props.link || "#"}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`inline-block font-bold py-2 px-4 rounded-full transition ${
+              props.link?.trim()
+                ? "bg-blue-500 hover:bg-blue-600 text-white"
+                : "bg-gray-400 text-gray-200 cursor-not-allowed pointer-events-none"
+            }
+          `}
+          >
+            Ver Projeto
+          </a>
+        </div>
+        <div className="px-6 py-4">
+          <a
+            href={props.githubLink || "#"}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`w-10 h-10 rounded-full flex items-center justify-center p-1.5 transition ${
+              props.githubLink?.trim()
+                ? "bg-white hover:bg-gray-400 text-white"
+                : "bg-gray-400 text-gray-200 cursor-not-allowed pointer-events-none"
+            }
+          `}
+          >
+            <img
+              src={githubLogo}
+              alt="GitHub Logo"
+              className="w-5 h-5 inline-block center"
+            />
+          </a>
+        </div>
       </div>
     </div>
   );
-}
-
-
+};
