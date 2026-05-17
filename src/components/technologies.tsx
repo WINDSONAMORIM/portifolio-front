@@ -22,27 +22,16 @@ export const Technologies: React.FC = () => {
     <div className="w-full max-w-7xl mx-auto px-4 py-20">
       <div className="overflow-hidden">
         <motion.div
-          className="flex gap-8"
-          animate={{
-            x: ['0%', '-50%'],
-          }}
+          className="flex"
+          animate={{ x: ["0%", "-100%"] }}
           transition={{
             duration: 30,
             repeat: Infinity,
-            ease: 'linear',
-          }}
-          style={{
-            maskImage: 'linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%)',
-            WebkitMaskImage: 'linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%)',
+            ease: "linear",
           }}
         >
           {[...icons, ...icons].map((icon, index) => (
-            <img
-              key={`${icon}-${index}`}
-              src={icon}
-              alt="Technology icon"
-              className="w-24 h-24 md:w-17.5 md:h-17.5 shrink-0 hover:scale-110 transition-transform duration-300"
-            />
+            <img key={index} src={icon} className="w-14 h-14 md:w-20 md:h-20 mr-8 shrink-0" />
           ))}
         </motion.div>
       </div>
