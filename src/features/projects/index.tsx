@@ -31,7 +31,7 @@ export const Projects = () => {
             "PostgreSQL",
             "Zod",
           ]}
-          link="https://gestaoprestacaoapi-production.up.railway.app/docs/#tag/orcado"
+          link="https://gestao-prestacao-api.onrender.com/docs"
           githubLink="https://github.com/WINDSONAMORIM/gestao_prestacao_api"
         />
         <CardProjects
@@ -46,7 +46,13 @@ export const Projects = () => {
           title="Dragon Ball"
           description=" Aplicação front-end que consome a API pública Dragon Ball para exibir personagens, transformações e níveis de poder (Ki). O projeto implementa paginação completa (primeira/anterior/próximo/última), modal dinâmico com informações detalhadas e troca de imagem ao clicar nas transformações, e tratamento de texto longo com truncagem. Desenvolvido com HTML, CSS e JavaScript puro, sem frameworks — demonstrando domínio de manipulação DOM, async/await e grid/flexbox."
           imageUrl={projetoDragonBall}
-          tags={["Consumo de API", "Manipulação da DOM", "Async/Await", "Paginação", "Modal"]}
+          tags={[
+            "Consumo de API",
+            "Manipulação da DOM",
+            "Async/Await",
+            "Paginação",
+            "Modal",
+          ]}
           link="https://windsonamorim.github.io/DragonBall/"
           githubLink="https://github.com/WINDSONAMORIM/DragonBall"
         />
