@@ -1,14 +1,18 @@
-import { Hero } from "./features/Hero";
+import { Hero } from "./features/hero";
 import "./App.css";
 import { Projects } from "./features/projects";
+import { Experiences } from "./features/experiences";
+import { SocialMedia } from "./features/socialMedia/socialMedia";
 
 function App() {
   return (
-      <div className="flex flex-col min-h-screen w-full overflow-x-hidden bg-slate-950">
-        <Hero />
-        <Projects />
-      </div>
+    <div className="flex flex-col min-h-screen w-full overflow-x-hidden bg-slate-950 overflow-x-hidden">
+      <Hero />
+      <Projects />
+      <Experiences />
+      <SocialMedia />
+    </div>
   );
 }
 
-export default App
+export default App;
