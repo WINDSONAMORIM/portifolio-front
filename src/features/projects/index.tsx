@@ -10,7 +10,7 @@ export const Projects = () => {
       <h2 className="text-3xl font-bold text-center m-8 text-white">
         Projetos
       </h2>
-      <div className="mx-auto max-w-7xl min-h-screen grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-4 p-4">
+      <div className="mx-auto max-w-7xl min-h-screen grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 place-items-center gap-4 p-4">
         <CardProjects
           title="Dashboard de Gestão Financeira - Frontend"
           description="Interface administrativa moderna focada na visualização inteligente de dados financeiros. O sistema transforma fluxos complexos de prestação de contas em dashboards interativos, permitindo o acompanhamento em tempo real do planejamento versus executado com animações fluidas e alta performance."
@@ -41,6 +41,14 @@ export const Projects = () => {
           tags={["Python", "Pydantic", "REST API", "ETL", "Data Integration"]}
           link=""
           githubLink="https://github.com/WINDSONAMORIM/csv_to_api"
+        />
+        <CardProjects
+          title="Conferência Automatizada de Processos"
+          description="Ferramenta desenvolvida em Python para automatizar a conferência de processos de prestação de contas. O sistema processa documentos PDF e XML, extrai informações utilizando expressões regulares, realiza validações cruzadas entre notas fiscais, pedidos de compra e comprovantes de pagamento, identificando divergências automaticamente e reduzindo o trabalho manual de auditoria."
+          imageUrl={projetoCSVtoAPI}
+          tags={["Python", "Regex", "XML", "PyPDF2", "ETL", "Data Processing"]}
+          link=""
+          githubLink="https://github.com/WINDSONAMORIM/Conferencia-Processos"
         />
         <CardProjects
           title="Dragon Ball"
