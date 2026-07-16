@@ -1,5 +1,5 @@
-import { Hero } from "./features/hero";
 import "./App.css";
+import { Hero } from "./features/hero";
 import { Projects } from "./features/projects";
 import { Experiences } from "./features/experiences";
 import { SocialMedia } from "./features/socialMedia/socialMedia";
