@@ -10,7 +10,7 @@ export const TimeLineItem = () => {
       {experiences.map((exp, index) => (
         <div
           key={exp.id}
-          className="grid w-full md:w-40 h-25 items-center gap-4 grid-cols-[1fr_auto_1fr] md:flex md:flex-col md:items-center"
+          className="grid w-full h-25 items-center gap-4 grid-cols-[1fr_auto_1fr] md:flex md:flex-col md:items-center"
         >
           <h3 className="text-right md:text-center text-lg font-semibold text-white">
             {exp.companyAbbr}
@@ -33,12 +33,12 @@ export const TimeLineItem = () => {
           <h3 className="text-xl font-semibold text-white">
             {experiences[selected].role} - {experiences[selected].company}
           </h3>
-          <p className="mt-2 text-gray-400">
+          <p className="mt-5 text-gray-400">
             {experiences[selected].description}
           </p>
-          <ul className="mt-2 list-disc list-inside text-gray-400">
+          <ul className="mt-5 list-disc list-inside text-gray-400">
             {experiences[selected].responsibilities.map((resp, idx) => (
-              <li key={idx}>{resp}</li>
+              <li className="mt-3" key={idx}>{resp}</li>
             ))}
           </ul>
         </div>

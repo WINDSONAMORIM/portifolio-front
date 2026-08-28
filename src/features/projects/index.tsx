@@ -52,7 +52,7 @@ export const Projects = () => {
         />
         <CardProjects
           title="Dragon Ball"
-          description=" Aplicação front-end que consome a API pública Dragon Ball para exibir personagens, transformações e níveis de poder (Ki). O projeto implementa paginação completa (primeira/anterior/próximo/última), modal dinâmico com informações detalhadas e troca de imagem ao clicar nas transformações, e tratamento de texto longo com truncagem. Desenvolvido com HTML, CSS e JavaScript puro, sem frameworks — demonstrando domínio de manipulação DOM, async/await e grid/flexbox."
+          description=" Aplicação consumindo API do Dragon Ball que exibi personagens, transformações e níveis de poder. O projeto implementa paginação completa, modal dinâmico com informações detalhadas e troca de imagem ao clicar nas transformações, e tratamento de texto longo com truncagem. Desenvolvido com HTML, CSS e JavaScript puro, sem frameworks — demonstrando domínio de manipulação DOM, async/await e grid/flexbox."
           imageUrl={projetoDragonBall}
           tags={[
             "Consumo de API",
