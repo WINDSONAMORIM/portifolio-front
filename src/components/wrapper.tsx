@@ -1,4 +1,4 @@
-import backgroundImage from "../assets/background.png";
+// import backgroundImage from "../assets/background.png";
 
 export const Wrapper: React.FC<{ children: React.ReactNode }> = ({
   children,
@@ -7,7 +7,7 @@ export const Wrapper: React.FC<{ children: React.ReactNode }> = ({
     <div
       className="min-h-screen flex items-center justify-center bg-cover bg-center"
       style={{
-        backgroundImage: `url(${backgroundImage})`,
+        // backgroundImage: `url(${backgroundImage})`,
       }}
     >
       {children}
