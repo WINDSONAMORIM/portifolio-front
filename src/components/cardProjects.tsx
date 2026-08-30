@@ -11,19 +11,21 @@ interface CardProjectsProps {
 
 export const CardProjects = (props: CardProjectsProps) => {
   return (
-    <div className="max-w-sm rounded-lg overflow-hidden shadow-lg bg-gradient-to-r from-[#002E5D] via-[#002E5D] to-[#2774ae] text-white">
-      <div className="px-6 py-4">
+    <div className="h-full flex flex-col rounded-lg overflow-hidden shadow-lg bg-gradient-to-r from-[#002E5D] via-[#002E5D] to-[#2774ae] text-white">
+      <div className="p-2">
         <img
           className="w-full h-45 rounded-lg object-cover"
           src={props.imageUrl}
           alt={props.title}
         />
       </div>
-      <div className="px-6 py-4">
-        <div className="font-bold text-xl mb-2">{props.title}</div>
+      <div className="flex justify-center items-center h-35 p-2">
+        <p className="w-full font-bold text-xl text-center">{props.title}</p>
+      </div>
+      <div className="h-3/4 p-2">
         <p className="text-blue-100 text-base">{props.description}</p>
       </div>
-      <div className="px-6 pt-4 pb-2">
+      <div className="px-6">
         {props.tags.map((tag, index) => (
           <span
             key={index}
@@ -33,8 +35,8 @@ export const CardProjects = (props: CardProjectsProps) => {
           </span>
         ))}
       </div>
-      <div className="py-4 flex items-center justify-between">
-        <div className="px-6 py-4">
+      <div className="py-4 flex items-end justify-around">
+        <div>
           <a
             href={props.link || "#"}
             target="_blank"
@@ -49,7 +51,7 @@ export const CardProjects = (props: CardProjectsProps) => {
             Ver Projeto
           </a>
         </div>
-        <div className="px-6 py-4">
+        <div>
           <a
             href={props.githubLink || "#"}
             target="_blank"
