@@ -7,7 +7,7 @@ export const Experiences = () => {
     <>
       <div className="min-w-10/12 mx-auto max-w-7xl min-h-screen">
         <h2 className="text-3xl font-bold text-center m-8 text-white">
-          Experiências Profissional
+          Experiência Profissional
         </h2>
 
         <div className="relative">

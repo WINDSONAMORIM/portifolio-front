@@ -7,11 +7,11 @@ import { MdRocketLaunch } from "react-icons/md";
 
 const solfSkills = [
   {
-    title: "Aprendizado Continuo",
+    title: "Aprendizado Contínuo",
     icon: <HiOutlineLightBulb size="2rem" color="#1f8bfa" />,
   },
   {
-    title: "Boas Praticas",
+    title: "Boas Práticas",
     icon: <FaLayerGroup size="2rem" color="#1f8bfa" />,
   },
   {
@@ -38,35 +38,45 @@ export const Sobre = () => {
         <h2 className="text-5xl font-bold text-white">Windson</h2>
         <h2 className="text-3xl font-bold text-[#1F8BFA]">Amorim</h2>
         <h6 className="text-white mt-1">
-          Desenvolver Full Stack | Estudante de Desenvolvimento de Sistemas
+          Desenvolvedor Full Stack | Estudante de Análise e Desenvolvimento de
+          Sistemas
         </h6>
 
         <div className="h-px w-32 my-5 bg-[#1f8bfa]" />
 
         <div className="space-y-5 w-full h-full">
           <p className="text-2xl text-white">
-            Estou em transição para a área de tecnologia, com foco no
-            desenvolvimeto Full Stack.
+            Sou desenvolvedor Full Stack em transição de carreira para a área de
+            tecnologia, com experiência prática na criação de aplicações web,
+            automação de processos e integração de sistemas.
           </p>
           <p className="text-2xl text-white">
-            Trabalho com React, Next.js, TypeScript, Node.js, Python e banco de
-            dados, buscando transformar problemas reais em soluções simples,
-            funcionais e bem estruturadas
+            Sou desenvolvedor Full Stack em transição de carreira para a área de
+            tecnologia, com experiência prática na criação de aplicações web,
+            automação de processos e integração de sistemas. Trabalho com React,
+            Next.js, TypeScript, Node.js, Python e bancos de dados relacionais,
+            desenvolvendo soluções que transformam processos complexos em
+            aplicações eficientes, organizadas e intuitivas.
           </p>
           <p className="text-2xl text-white">
-            Tenho experência em APIs, arquitetura de aplicações e
-            desenvolvimento de sistemas. Gosto de aprender continuamente,
-            resolver problemas, melhorar processos e criar projetos que gerem
-            valor de verdade
+            Tenho experiência no desenvolvimento e consumo de APIs REST,
+            validação de dados, arquitetura de aplicações e construção de
+            dashboards interativos. Busco aplicar boas práticas de programação
+            para criar soluções escaláveis e de fácil manutenção.
           </p>
           <p className="text-2xl text-white">
-            Minha experiência profissional em áreas administrativas contribuiu
-            para desenvolver minha organização, visão de processos e capacidade
-            de encontrar soluções.
+            Minha experiência profissional na área administrativa me proporciona
+            uma visão prática das necessidades do negócio, permitindo
+            identificar oportunidades de automação, otimização de processos e
+            melhoria na análise de dados.
           </p>
           <p className="text-2xl text-white">
-            Nas minhas horas vagas gosto de assistir filmes e series, estar com
-            minha família e praticar esportes.
+            Sou movido pela curiosidade, pelo aprendizado contínuo e pelo
+            desafio de resolver problemas reais por meio da tecnologia.
+          </p>
+          <p className="text-2xl text-white">
+            Nas horas vagas, gosto de assistir a filmes e séries, passar tempo
+            com minha família e praticar esportes.
           </p>
         </div>
         <div className="grid grid-cols-2 gap-4 my-5 md:grid-cols-4">
