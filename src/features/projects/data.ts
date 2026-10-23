@@ -3,6 +3,7 @@ import projetoCSVtoAPI from "../../assets/projetoCsvToAPI.png";
 import {
   projetoDragonBall,
   projetoGestaoPrestacaoFront,
+  projetoGTA,
 } from "../../assets/imagensProjetos";
 
 export const projects = [
@@ -66,5 +67,22 @@ export const projects = [
     tags: ["API", "DOM", "Async/Await", "Paginação"],
     link: "https://windsonamorim.github.io/DragonBall/",
     githubLink: "https://github.com/WINDSONAMORIM/DragonBall",
+  },
+  {
+    title: "GTA – Gerador de Personagens com IA",
+    description:
+      "Aplicação interativa inspirada em GTA, desenvolvida com HTML, CSS e JavaScript puro. Integra Inteligência Artificial generativa por meio do Puter.js, permitindo que usuários enviem suas próprias fotos e criem personagens personalizados no estilo do jogo, com remoção de fundo. Implementa upload de imagens, integração com modelos de IA, manipulação dinâmica do DOM e seleção interativa de personagens.",
+    imageUrl: projetoGTA.capa,
+    prints: projetoGTA.prints,
+    tags: [
+      "JavaScript",
+      "IA Generativa",
+      "Puter.js",
+      "Image Generation",
+      "DOM",
+      "Async/Await",
+    ],
+    link: "https://windsonamorim.github.io/gta/",
+    githubLink: "https://github.com/WINDSONAMORIM/gta",
   },
 ];
